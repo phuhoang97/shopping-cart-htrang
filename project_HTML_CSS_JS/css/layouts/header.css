@@ -1,0 +1,140 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.home_clothing {
+  display: flex;
+  gap: 20%;
+  align-items: center;
+  height: 80px;
+  background-color: white;
+  justify-content: space-evenly;
+}
+.home_clothing .clothing ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.home_clothing .clothing ul li {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.home_clothing .shopping {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(7, 137, 7);
+  font-size: 20px;
+}
+.img img {
+  width: 100%;
+}
+.home_clothing .shopping span {
+  font-size: 40px;
+}
+.menu {
+  border: 1px solid black;
+  display: flex;
+  width: 80%;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 50px;
+  margin: 0 auto;
+}
+.menu .menu-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu .menu-1 span {
+  font-size: 40px;
+}
+.h1 span {
+  color: green;
+  font-size: 60px;
+}
+span {
+  color: green;
+  font-size: 60px;
+}
+.vegetable-banner img {
+  width: 300px;
+}
+
+.vegetable-banner b {
+  color: green;
+}
+
+.vegetable-banner {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.img-link {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#span span {
+  font-size: 50px;
+}
+.menu-food ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button button {
+  border-radius: 30px;
+}
+.end {
+  padding: 50px;
+}
+
+#button button {
+  background-color: white;
+}
+/* .buy {
+  display: flex;
+  gap: 20px;
+} */
+.buy button {
+  background-color: rgba(0, 128, 0, 0.338);
+  border-radius: 30px;
+}

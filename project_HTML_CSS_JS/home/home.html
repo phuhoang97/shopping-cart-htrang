@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Vegetable</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <style>
+      .clothing li:hover {
+        color: lightgreen;
+      }
+      .menu :hover {
+        color: lightgreen;
+      }
+      .menu-food li:hover {
+        background-color: rgba(0, 128, 0, 0.749);
+        color: white;
+        border-radius: 20px;
+        width: max-content;
+      }
+      .button :hover {
+        background-color: rgba(0, 128, 0, 0.749);
+        color: white;
+      }
+      #button :hover {
+        background-color: rgba(0, 128, 0, 0.749);
+        color: white;
+      }
+      .buy  :hover{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home_clothing">
+      <div class="shopping">
+        <span class="material-symbols-outlined"> shopping_cart_checkout </span
+        >TRANG VEGETABLE
+      </div>
+      <div class="clothing">
+        <ul>
+          <li>HOME</li>
+          <li>LIÊN HỆ</li>
+          <li>HOTLINE: 1900 1006</li>
+          <li>
+            <span class="material-symbols-outlined shopping-cart"> shopping_bag </span>GIỎ
+            HÀNG
+          </li>
+          <li>
+            <span id="button-2" class="material-symbols-outlined"> density_small </span>
+            <div id="button" style="display: none;">
+              <button id="login">Đăng nhập</button>
+              <br>
+              <button id="sigup">Đăng ký</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="img">
+      <img
+        src="https://bizweb.dktcdn.net/100/383/804/themes/903003/assets/slider_1.jpg?1680769128132"
+        alt=""
+      />
+    </div>
+    <div class="menu">
+      <div class="menu-1">
+        <div>
+          <span class="material-symbols-outlined"> local_shipping </span>
+        </div>
+        <div>
+          <b>FREE SHIP</b>
+          <p>Miễn phí vận chuyển</p>
+        </div>
+      </div>
+      <div class="menu-1">
+        <div><span class="material-symbols-outlined"> sync </span></div>
+        <div>
+          <b>Hoàn Trả</b>
+          <p>Trong 30 ngày miễn phí</p>
+        </div>
+      </div>
+
+      <div class="menu-1">
+        <div>
+          <span class="material-symbols-outlined"> monetization_on </span>
+        </div>
+        <div>
+          <b>THANH TOÁN</b>
+          <p>Hỗ trợ nhiều hình thức</p>
+        </div>
+      </div>
+      <div class="menu-1">
+        <div><span class="material-symbols-outlined"> transcribe </span></div>
+        <div>
+          <b>Hỗ trợ</b>
+          <p>24/7</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hiển thị cart -->
+     <div class="cart">
+      <h1>Cart</h1>
+      <ul class="listCart"></ul>
+      <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+      </div>
+    </div>
+
+    <h1 class="h1">
+      SẢN PHẨM BÁN CHẠY <span class="material-symbols-outlined"> eco </span>
+    </h1>
+
+    <div class="vegetable-banner">
+      <div>
+        <img
+          src="https://bizweb.dktcdn.net/thumb/large/100/383/804/products/13-0b69bdec-f167-4a7b-a54d-392b42ea1d21.jpg?v=1586771698080"
+          alt=""
+        />
+        <p>rau muống</p>
+        <b>30.000 đ</b>
+        <div class="buy">
+          <br>
+          <button>Thêm vào <span class="material-symbols-outlined"> shopping_bag </span> </button> <button>mua ngay</button>
+        </div>  
+        <br>
+      </div>
+      <div>
+        <img
+          src="https://bizweb.dktcdn.net/thumb/large/100/383/804/products/22-0ebe1919-23f8-423c-82dc-05bceb49649d.jpg?v=1586771656913"
+          alt=""
+        />
+        <p>nấm kim châm</p>
+        <b>15.000 đ</b>
+        <div class="buy">
+          <br>
+          <button>Thêm vào <span class="material-symbols-outlined"> shopping_bag </span> </button> <button>mua ngay</button>
+        </div>  
+        <br>
+      </div>
+      <div>
+        <img
+          src="https://bizweb.dktcdn.net/thumb/large/100/383/804/products/16-dbe6f83d-77ce-49d7-860d-617f7bfcc5e3.jpg?v=1586771621947"
+          alt=""
+        />
+        <p>thịt lợn</p>
+        <b>300.000 đ</b>
+        <div class="buy">
+          <br>
+          <button>Thêm vào <span class="material-symbols-outlined"> shopping_bag </span> </button> <button>mua ngay</button>
+        </div>   
+       <br>
+      </div>
+      <div>
+        <img
+          src="https://bizweb.dktcdn.net/thumb/large/100/383/804/products/6-57ff4cf1-efa5-4479-af31-e87169caeb47.jpg?v=1586771726600"
+          alt=""
+        />
+        <p>kẹo XYLYTOL</p>
+        <b>40.000 đ</b>
+        <div class="buy">
+          <br>
+          <button>Thêm vào <span class="material-symbols-outlined"> shopping_bag </span> </button> <button>mua ngay</button>
+        </div>
+        <br>
+      </div>
+    </div>
+
+    <div class="img-link">
+      <div>
+        <img
+          src="https://bizweb.dktcdn.net/100/383/804/themes/903003/assets/2banner_1.jpg?1680769128132"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://bizweb.dktcdn.net/100/383/804/themes/903003/assets/2banner_2.jpg?1680769128132"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <h1 id="span">
+      DANH SÁCH SẢN PHẨM <span class="material-symbols-outlined"> eco </span>
+    </h1>
+    <br />
+    <br />
+
+    <div class="menu-food">
+      <ul>
+        <li><b>TẤT CẢ</b></li>
+        <li><b>NƯỚC GIẢI KHÁT</b></li>
+        <li><b>RAU</b></li>
+        <li><b>THỊT</b></li>
+        <li><b>ĐỒ ĂN NHANH</b></li>
+      </ul>
+    </div>
+    <br />
+
+    <div class="list"></div>
+    
+     
+    <div class="button">
+      <button>XEM THÊM</button>
+    </div>
+    <br>
+    <br>
+
+    <div class="end">
+      <span class="material-symbols-outlined">
+        compost
+        </span>TRANG VEGETABLE
+        <br>
+        <br>
+        
+        <span class="material-symbols-outlined">
+        location_on
+        </span>KM 10 NGUYỄN TRÃI, HÀ ĐÔNG, HÀ NỘI
+        <br>
+        <br>
+        
+        <span class="material-symbols-outlined">
+        phone_in_talk
+        </span>1900 1006
+        <br>
+        <br>
+      
+        <span class="material-symbols-outlined">
+          mail
+          </span>@gmail.com
+    <div>
+    
+  </body>
+  <script src="../javascript/script.js"></script>
+</html>
